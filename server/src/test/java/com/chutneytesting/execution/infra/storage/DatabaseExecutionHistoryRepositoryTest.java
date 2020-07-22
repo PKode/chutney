@@ -195,6 +195,7 @@ public class DatabaseExecutionHistoryRepositoryTest extends AbstractLocalDatabas
             .report("report content")
             .testCaseTitle("Fake title")
             .environment("")
+            .datasetId("fake dataset id")
             .build();
     }
 }
